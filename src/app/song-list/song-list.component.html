@@ -1,0 +1,107 @@
+<div class="row  mx-0 ">
+    <div class="col-sm-2 lateralCaract">
+        <img src="../../assets/logo.png" alt="" class="logoSFy">
+        <nav class="nav flex-column navbarLateral">
+            <a routerLink="/home" class="nav-link current pointer"><i class="fas fa-home"></i>Inicio</a>
+            <a routerLink="/search" class="nav-link pointer"><i class="fas fa-search"></i>Buscar</a>
+            <a class="nav-link"><i class="fas fa-book-open"></i>Tu biblioteca</a>
+            <a class="nav-link">PLAYLIST</a>
+            <a class="nav-link"><button class="buttonMas">+</button> Crear playlist</a>
+        </nav>
+
+        <div class="overflow-auto barraPlaylist">
+            <p>Girls and Boys</p>
+            <p>Don t Stop Me Now</p>
+            <p>Lets Call the Whole Thing Off</p>
+            <p>Fly Me To The Moon</p>
+            <p>Don t Cry</p>
+            <p>Blur</p>
+            <p>Queen</p>
+            <p>Ella F. and Louis Armstrong</p>
+            <p>Frank Sinatra</p>
+            <p>Guns N Roses</p>
+            <p>Lenny</p>
+            <p>Antonio Carlos Jobim</p>
+            <p>HombresG</p>
+            <p>Joao Gilberto</p>
+            <p>Girls and Boys</p>
+            <p>Don t Stop Me Now</p>
+            <p>Lets Call the Whole Thing Off</p>
+            <p>Fly Me To The Moon</p>
+            <p>Don t Cry</p>
+        </div>
+    </div>
+    <div class="col-sm-10  lateralGlobal">
+        <div class="row ">
+            <div class="col-sm ">
+                <ul class="nav navbarBorder justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active current">SELECCIONADOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">PODCAST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">LISTA DE EXITOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">GENEROS Y ESTADOS DE ANIMO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">NOVEDADES</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row ">
+            <div class="col-sm">
+                <h1 style="margin: 50px;  font-weight: bold;">Recently played</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-6, col-md-4, col-lg-2" *ngFor='let song of songList'>
+
+                    <img routerLink="/player/{{song.id}}" src='../../assets/{{song.imagen}}' class="noBorderBlue pointer imagenCover"
+                        alt="...">
+                    <div class="card-body">
+                        <p style="font-weight: bold">{{song.autor}}</p>
+                        <p>{{song.title}}</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-sm">
+                <h1 style="margin: 50px; font-weight: bold;">Tus canciones favoritos
+                </h1>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-6, col-md-4, col-lg-2" *ngFor='let song of songList'>
+
+                    <img routerLink="/player/{{song.id}}" src='../../assets/{{song.imagen}}' class="noBorderBlue pointer imagenCover"
+                        alt="...">
+                    <div class="card-body">
+                        <p style="font-weight: bold">{{song.autor}}</p>
+                        <p>{{song.title}}</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="row border mx-0 reproductor">
+    <div class="col-12">
+        <img src='../../assets/{{songList[id].imagen}}' class="imagenCover">
+         <audio src="..." preload="auto"></audio> 
+    </div>
+</div> -->
