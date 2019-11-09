@@ -1,0 +1,80 @@
+<div class="row  mx-0 ">
+    <div class="col-sm-2 lateralCaract">
+        <img src="../../assets/logo.png" alt="" class="logoSFy">
+        <nav class="nav flex-column navbarLateral">
+            <a routerLink="/home" class="nav-link  pointer"><i class="fas fa-home"></i>Inicio</a>
+            <a routerLink="/search" class="nav-link  pointer"><i class="fas fa-search"></i>Buscar</a>
+            <a routerLink="/library"  class="nav-link current pointer"><i class="fas fa-book-open"></i>Tu biblioteca</a>
+            <a class="nav-link">PLAYLIST</a>
+            <a class="nav-link"><button class="buttonMas">+</button> Crear playlist</a>
+        </nav>
+
+        <div class="overflow-auto barraPlaylist">
+            <ul>
+                <li *ngFor= "let element of listaFavoritas">
+            
+                   Titulo: {{element.title}} y Autor: {{element.autor}}
+
+                </li>
+            
+            
+            
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-10  lateralGlobal ">
+
+        <h1 style="margin: 50px;  font-weight: bold;">Elije tus canciones favoritas</h1>
+        
+
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12, col-md-12, col-lg-12 " style="margin: 50px" *ngFor='let song of listaCanciones, let i = index'>
+                    <div class=" mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4 lateralGlobal">
+                            <img routerLink="/player/{{song.id}}" src='../../assets/{{song.imagen}}' class="noBorderBlue pointer imagenCover"
+                        alt="...">
+                          </div>
+                          <div class="col-md-8 lateralGlobal">
+                            <div class="card-body">
+                              <h5 class="card-title">{{song.autor}}</h5>
+                              <p class="card-text">{{song.title}}</p>
+                              <i class="far fa-heart" (click)="addFavoritas(song, i)"></i>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12, col-md-12, col-lg-12" *ngFor='let song of songList'>
+
+                    <img routerLink="/player/{{song.id}}" src='../../assets/{{song.imagen}}' class="noBorderBlue pointer imagenCover"
+                        alt="...">
+                    <div class="card-body">
+                        <p style="font-weight: bold">{{song.autor}}</p>
+                        <p>{{song.title}}</p>
+                    </div>
+                    <i class="far fa-heart corazon"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        
+
+
+    </div>
+
+</div>

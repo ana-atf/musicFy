@@ -10,6 +10,7 @@ import { DataService } from '../services/data.service';
 export class SearchComponent {
   songList = this._data.songList;
   searchSong = this._data.searchSong;
+  listaFavoritas = this._data.ListaFavoritas;
   
   constructor(public _path: ActivatedRoute, public _data: DataService) { }
 

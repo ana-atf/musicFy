@@ -7,11 +7,13 @@ import { PlayerComponent } from './player/player.component';
 import { DataService } from './services/data.service';
 import { RouterModule, Routes, } from '@angular/router';
 import { SearchComponent } from './search/search.component';
+import { LibraryComponent } from './library/library.component';
 
 const routerConfig: Routes = [
   {path: '', component: SongListComponent}, // ruta por defecto
   { path: 'home', component: SongListComponent }, // ruta ESTATICA
   { path: 'search', component: SearchComponent }, // ruta ESTATICA
+  { path: 'library', component: LibraryComponent }, // ruta ESTATICA
   { path: 'songList', component: SongListComponent }, // ruta ESTATICA
   {path: 'player/:id', component: PlayerComponent}, //rutA DINAMITA
   {path: '**', component: SongListComponent} // vista para la página 404]
@@ -22,7 +24,8 @@ const routerConfig: Routes = [
     AppComponent,
     SongListComponent,
     PlayerComponent,
-    SearchComponent
+    SearchComponent,
+    LibraryComponent
   ],
   imports: [
     BrowserModule,

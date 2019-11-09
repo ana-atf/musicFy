@@ -10,6 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class SongListComponent {
 
   songList = this._data.songList;
+  listaFavoritas = this._data.ListaFavoritas;
 
   constructor(public _data: DataService) {
    

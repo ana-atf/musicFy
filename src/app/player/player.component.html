@@ -4,31 +4,22 @@
     <nav class="nav flex-column navbarLateral noBorderBlue">
       <a routerLink="/home" class="nav-link current pointer"><i class="fas fa-home"></i>Inicio</a>
       <a routerLink="/search" class="nav-link pointer"><i class="fas fa-search"></i>Buscar</a>
-      <a class="nav-link"><i class="fas fa-book-open"></i>Tu biblioteca</a>
+      <a routerLink="/library" class="nav-link"><i class="fas fa-book-open"></i>Tu biblioteca</a>
       <a class="nav-link">PLAYLIST</a>
       <a class="nav-link"><button class="buttonMas">+</button> Crear playlist</a>
     </nav>
 
     <div class="overflow-auto barraPlaylist">
-      <p>Girls and Boys</p>
-      <p>Don t Stop Me Now</p>
-      <p>Lets Call the Whole Thing Off</p>
-      <p>Fly Me To The Moon</p>
-      <p>Don t Cry</p>
-      <p>Blur</p>
-      <p>Queen</p>
-      <p>Ella F. and Louis Armstrong</p>
-      <p>Frank Sinatra</p>
-      <p>Guns N Roses</p>
-      <p>Lenny</p>
-      <p>Antonio Carlos Jobim</p>
-      <p>HombresG</p>
-      <p>Joao Gilberto</p>
-      <p>Girls and Boys</p>
-      <p>Don t Stop Me Now</p>
-      <p>Lets Call the Whole Thing Off</p>
-      <p>Fly Me To The Moon</p>
-      <p>Don t Cry</p>
+      <ul>
+        <li *ngFor= "let element of listaFavoritas">
+    
+           Titulo: {{element.title}} y Autor: {{element.autor}}
+
+        </li>
+    
+    
+    
+    </ul>
 
     </div>
   </div>

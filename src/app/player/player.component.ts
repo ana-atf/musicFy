@@ -10,9 +10,11 @@ import { DataService } from '../services/data.service';
 export class PlayerComponent {
   id: number;
   songList = [];
+  listaFavoritas = this._data.ListaFavoritas;
   constructor(public _path: ActivatedRoute, public _data: DataService) {
     this.id = this._path.snapshot.params.id;
     this.songList = this._data.songList;
+    
   }
   // ngOnAfterViewInit() {
   //   this.id = this._path.snapshot.params.id;
