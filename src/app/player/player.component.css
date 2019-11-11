@@ -1,5 +1,5 @@
 .fondobackgroung{
-    background-image: url(../../assets/background.png);
+    background-image: url("http://www.kanoalvarez.cl/wp-content/uploads/2017/08/Art-wallpaper-Background-Color-7-wallpaper-1920x1200-wallpaper-...-1.jpg");
     /* background-color: black; */
     background-size: cover;
 
@@ -104,6 +104,7 @@ a {
     text-align: justify;
     margin: 50px;
     padding: 30px;
+    color: white !important;
 }
 
 /* ::-webkit-scrollbar{
@@ -140,4 +141,17 @@ a{
 #idPlayer{
     width: 200%;
     margin: 30px;
+}
+
+.angular-with-newlines {
+    white-space: pre-wrap;
+}
+
+.pre {
+    color: white !important;
+    font-size: 20px;
+    text-align: justify;
+    margin: 50px;
+    padding: 30px;
+  
 }

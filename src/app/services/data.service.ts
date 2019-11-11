@@ -12,7 +12,8 @@ export class DataService {
       title: 'Girls and Boys 1',
       cancion: 'Blur (The Best Of) - Girls and Boys.mp3',
       imagen: 'a_cover-02.jpg',
-      lyrics: `Street's like a jungle
+      lyrics: 
+    `Street's like a jungle
      So call the police
      Following the herd
      Down to Greece
@@ -21,7 +22,7 @@ export class DataService {
      Is paranoid
      On sunny beaches
      Take your chances
-     Looking for
+     Looking for 
      Girls who are boys
      Who like boys to be girls
      Who do boys like they're girls
@@ -75,7 +76,8 @@ export class DataService {
       title: 'Don t Stop Me Now',
       cancion: 'Queen - Dont Stop Me Now.mp3',
       imagen: 'a_cover-01.jpg',
-      lyrics: `Tonight, I'm gonna have myself a real good time
+      lyrics: 
+    `Tonight, I'm gonna have myself a real good time
      I feel alive and the world I'll turn it inside out, yeah
      And floating around in ecstasy
      So don't stop me now don't stop me
@@ -143,7 +145,8 @@ export class DataService {
       title: 'Lets Call the Whole Thing Off',
       cancion: 'Ella F. and Louis Armstrong - Lets Call the Whole Thing Off.mp3',
       imagen: 'a_cover-03.jpg',
-      lyrics: `Things have come to a pretty pass
+      lyrics: 
+      `Things have come to a pretty pass
       Our romance is growing flat
       For you like this and the other
       While I go for this and that
@@ -201,7 +204,8 @@ export class DataService {
       title: 'Fly Me To The Moon',
       cancion: 'Frank Sinatra Fly Me To The Moon.mp3',
       imagen: 'a_cover-04.jpg',
-      lyrics: `Fly me to the moon
+      lyrics: 
+      `Fly me to the moon
       Let me play among the stars
       Let me see what spring is like on
       A-Jupiter and Mars
@@ -278,7 +282,8 @@ export class DataService {
       title: 'Don t Cry',
       cancion: 'Guns N Roses - Dont Cry.mp3',
       imagen: 'a_cover-05.jpg',
-      lyrics: `If we could see tomorrow, what of your plans?
+      lyrics: 
+      `If we could see tomorrow, what of your plans?
       No one can live in sorrow, ask all your friends
       Times that you took in stride, they're back in demand
       I was the one who was washing blood off your hands
@@ -351,9 +356,48 @@ export class DataService {
     {
       id: 11,
       autor: 'Antonio Carlos Jobim',
-      title: 'PROXIMAMENTE ESTARÁ A TU DISPOSICION, DISCULPE LAS MOLESTIAS',
-      cancion: 'No disponible temporalmente',
-      imagen: 'a_cover-07.jpg'
+      title: 'The Girl From Ipanema',
+      cancion: 'The_Girl_from_Ipanema.mp3',
+      imagen: 'a_cover-07.jpg',
+      lyrics: 
+      `Tall and tan and young and lovely
+      The girl from Ipanema goes walking
+      And when she passes, each one she passes
+      Goes "a-a-a-h"
+      When she walks she's like a samba
+      When she walks, she's like a samba
+      That swings so cool and sways so gentle
+      That when she passes, each one she passes
+      Goes "a-a-a-h"
+      Oh, but I watch her so sadly
+      How can I tell her I love her
+      Yes, I would give my heart gladly
+      But each day as she walks to the sea
+      She looks straight ahead, not at me
+      Tall and tan and young and lovely
+      The girl from Ipanema goes walking
+      And when she passes, I smile, but she
+      Doesn't see. She just doesn't see
+      No, she just doesn't 
+      Tall and tan and young and lovely
+      The girl from Ipanema goes walking
+      And when she passes, each one she passes
+      Goes "a-a-a-h"
+      When she walks she's like a samba
+      When she walks, she's like a samba
+      That swings so cool and sways so gentle
+      That when she passes, each one she passes
+      Goes "a-a-a-h"
+      Oh, but I watch her so sadly
+      How can I tell her I love her
+      Yes, I would give my heart gladly
+      But each day as she walks to the sea
+      She looks straight ahead, not at me
+      Tall and tan and young and lovely
+      The girl from Ipanema goes walking
+      And when she passes, I smile, but she
+      Doesn't see. She just doesn't see
+      No, she just doesn't`
     },
     {
       id: 12, 
@@ -385,7 +429,7 @@ export class DataService {
       title: 'Girls and Boys 1',
       cancion: 'Blur (The Best Of) - Girls and Boys.mp3',
       imagen: 'a_cover-02.jpg',
-      lyrics: `Street's like a jungle
+      lyrics: ` Street's like a jungle
      So call the police
      Following the herd
      Down to Greece
@@ -725,7 +769,7 @@ export class DataService {
       id: 11,
       autor: 'Antonio Carlos Jobim',
       title: 'PROXIMAMENTE ESTARÁ A TU DISPOSICION, DISCULPE LAS MOLESTIAS',
-      cancion: 'No disponible temporalmente',
+      cancion: 'The Girl From Ipanema',
       imagen: 'a_cover-07.jpg'
     },
     {

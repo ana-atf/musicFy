@@ -28,14 +28,18 @@
 
   <div class="col-2">
     <img src="../../assets/{{songList[id].imagen}}" class="card-img-top imagenCover" alt="...">
-    <h5 style="text-align: center" class="">{{songList[id].autor}}</h5>
-    <p style="text-align: center" class="">{{songList[id].title}}</p>
+    <h5 style="text-align: center; color: black" class="">{{songList[id].autor}}</h5>
+    <p style="text-align: center; color: black" class="">{{songList[id].title}}</p>
     <button class="btn btn-primary btn-lg rounded-pill botonReproducir mx-auto"
       onclick="document.getElementById('idPlayer').play()">Reproducir</button>
   </div>
   <div class="col-8">
-    <h1 style="text-align: center; margin: 50px; font-weight: bold">Lyrics</h1>
-    <p class="lyric">{{songList[id].lyrics}}</p>
+    <h1 style="text-align: center; margin: 50px; font-weight: bold; color: black;">Lyrics</h1>
+    <div class="lyric angular-with-newlines" ng-repeat="item in items">
+      <pre>{{songList[id].lyrics}}</pre>
+    </div>
+    <!-- <p class="lyric">{{songList[id].lyrics}}</p> -->
+
   </div>
 
 
