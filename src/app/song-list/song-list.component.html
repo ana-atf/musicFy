@@ -1,6 +1,6 @@
 <div class="row  mx-0 ">
     <div class="col-sm-2 lateralCaract">
-        <img src="../../assets/logo.png" alt="" class="logoSFy">
+        <img src="/assets/logo.png" alt="" class="logoSFy">
         <nav class="nav flex-column navbarLateral">
             <a routerLink="/home" class="nav-link current pointer"><i class="fas fa-home"></i>Inicio</a>
             <a routerLink="/search" class="nav-link pointer"><i class="fas fa-search"></i>Buscar</a>
@@ -55,7 +55,7 @@
             <div class="row ">
                 <div class="col-sm-6, col-md-4, col-lg-2" *ngFor='let song of songList'>
 
-                    <img routerLink="/player/{{song.id}}" src='../../assets/{{song.imagen}}' class="noBorderBlue pointer imagenCover"
+                    <img routerLink="/player/{{song.id}}" src='/assets/{{song.imagen}}' class="noBorderBlue pointer imagenCover"
                         alt="...">
                     <div class="card-body">
                         <p style="font-weight: bold">{{song.autor}}</p>
@@ -76,7 +76,7 @@
             <div class="row ">
                 <div class="col-sm-6, col-md-4, col-lg-2" *ngFor='let song of songList'>
 
-                    <img routerLink="/player/{{song.id}}" src='../../assets/{{song.imagen}}' class="noBorderBlue pointer imagenCover"
+                    <img routerLink="/player/{{song.id}}" src='/assets/{{song.imagen}}' class="noBorderBlue pointer imagenCover"
                         alt="...">
                     <div class="card-body">
                         <p style="font-weight: bold">{{song.autor}}</p>
@@ -91,7 +91,7 @@
 
 <!-- <div class="row border mx-0 reproductor">
     <div class="col-12">
-        <img src='../../assets/{{songList[id].imagen}}' class="imagenCover">
+        <img src='/assets/{{songList[id].imagen}}' class="imagenCover">
          <audio src="..." preload="auto"></audio> 
     </div>
 </div> -->
