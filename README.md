@@ -1,28 +1,32 @@
 # **Spotyfy** <img src="https://github.com/ana-atf/musicFy/blob/master/src/assets/logo.png"> 
 
 ## **Title**: 
-Replica de la aplicacion Spotyfy
+Replica de la aplicacion Spotify
 
 <img src="../../assets/index.jpg">
+<img src="../../assets/player.jpg">
+<img src="../../assets/search.jpg">
+<img src="../../assets/library.jpg">
 
 ## **Descripcion**:
 #### How does it work?
 Con esta aplicación podrás escuchar la musica de la que disponemos. La página esta compuesta de:
-*  Temperatura Actual
-*  Temperatura máxima
-*  Temperatura mínima
-*  Humedad
+*  Index: página principal donde podrás elegir la cancion que deseas escuchar haciendo click sobre ella
+*  Player: se muestra la camcion que has seleccionado, su letra y un boton de reproducir cancion
+*  Un buscador de canciones que todavía no funciona la barra de search
+*  Tu biblioteca, muestra el listado de canciones que tiene la aplicacion y haciendo click en el corazon se añade a la playlist y desaparece del listado
 
-Adicionalmente, al seleccionar una ciudad te mostrará una imagen de ella para hacer más atractiva la web.
+
 ## **How to use**:
-Debes ir https://github.com/ y clonar ana-atf/ejercicio3_Ajax
+Debes ir https://github.com/ y clonar ana-atf/musicFy
+
 
 
 ## **Future improvements**:
-*  Añadir geolocalización
-*  Realizar version movil
-*  Añadir el listado de paises en el Navbar para reorganizar los elementos de la página, con esto se eliminará scroll y la haremos más atractiva
-*  Cambiar input por div con background blanco
+*  Hacer que el buscador funcione
+*  Cuando añades las canciones a la playlist que puedas eliminarlas y vuelvan a library
+*  Cuando hagas click en la cancion de la playlist que se reproduzca
+*  Mejorar el css de playerlist
 
 ## **Legal terms**:
 Tenemos esta licencia **GNU AFFERO GENERAL PUBLIC LICENSE**
