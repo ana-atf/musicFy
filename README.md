@@ -1,27 +1,29 @@
-# MusicFy
+# **Spotyfy** <img src="https://github.com/ana-atf/musicFy/blob/master/src/assets/logo.png"> 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
+## **Title**: 
+Replica de la aplicacion Spotyfy
 
-## Development server
+<img src="../../assets/index.jpg">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## **Descripcion**:
+#### How does it work?
+Con esta aplicación podrás escuchar la musica de la que disponemos. La página esta compuesta de:
+*  Temperatura Actual
+*  Temperatura máxima
+*  Temperatura mínima
+*  Humedad
 
-## Code scaffolding
+Adicionalmente, al seleccionar una ciudad te mostrará una imagen de ella para hacer más atractiva la web.
+## **How to use**:
+Debes ir https://github.com/ y clonar ana-atf/ejercicio3_Ajax
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## **Future improvements**:
+*  Añadir geolocalización
+*  Realizar version movil
+*  Añadir el listado de paises en el Navbar para reorganizar los elementos de la página, con esto se eliminará scroll y la haremos más atractiva
+*  Cambiar input por div con background blanco
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## **Legal terms**:
+Tenemos esta licencia **GNU AFFERO GENERAL PUBLIC LICENSE**
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
