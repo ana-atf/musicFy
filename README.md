@@ -27,6 +27,8 @@ Debes ir https://github.com/ y clonar ana-atf/musicFy
 *  Cuando añades las canciones a la playlist que puedas eliminarlas y vuelvan a library
 *  Cuando hagas click en la cancion de la playlist que se reproduzca
 *  Mejorar el css de playerlist
+*  Hacer el localStorage ya que cuando añado canciones a la playlist, si refresco la página se borra
+
 
 ## **Legal terms**:
 Tenemos esta licencia **GNU AFFERO GENERAL PUBLIC LICENSE**
