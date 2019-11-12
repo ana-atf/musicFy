@@ -1,12 +1,12 @@
-# **Spotyfy** <img src="https://github.com/ana-atf/musicFy/blob/master/src/assets/logo.png"> 
+# **Spotyfy** <img src="https://github.com/ana-atf/musicFy/blob/master/docs/assets/logo.png"> 
 
 ## **Title**: 
 Replica de la aplicacion Spotify
 
-<img src="../../assets/index.jpg">
-<img src="../../assets/player.jpg">
-<img src="../../assets/search.jpg">
-<img src="../../assets/library.jpg">
+<img src="https://github.com/ana-atf/musicFy/blob/master/docs/assets/index.jpg">
+<img src="https://github.com/ana-atf/musicFy/blob/master/docs/assets/player.jpg">
+<img src="https://github.com/ana-atf/musicFy/blob/master/docs/assets/search.jpg">
+<img src="https://github.com/ana-atf/musicFy/blob/master/docs/assets/library.jpg">
 
 ## **Descripcion**:
 #### How does it work?
@@ -30,4 +30,5 @@ Debes ir https://github.com/ y clonar ana-atf/musicFy
 
 ## **Legal terms**:
 Tenemos esta licencia **GNU AFFERO GENERAL PUBLIC LICENSE**
+
 
